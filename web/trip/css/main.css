@@ -1,0 +1,45 @@
+.container .inner .slide {
+    width: 375px;
+    height: 358px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: url(../images/winter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main .text_box {
+    color: #2c2c2c;
+}
+
+.main .text_box h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.main .text_box p {
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    background-color: #6a62b7;
+    border-radius: 22px;
+    cursor: pointer;
+    border: transparent;
+}
+
+.btn:hover {
+    background-color: #462eff;
+    transition: all 0.3s;
+}
+
+.btn span {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 6px;
+}

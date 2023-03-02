@@ -1,0 +1,277 @@
+/* small박스가 연보라박스 */
+/* width: 375px;
+    height: 667px; */
+
+.head {
+    position: relative;
+}
+
+.head .logo h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+.head .nav {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.head .nav li:hover {
+    text-decoration: underline;
+    color: #ff626b;
+    transition: all 0.3s;
+}
+
+.head .nav li a {
+    font-size: 11px;
+    padding: 0 20px;
+}
+
+.head .user {
+    position: absolute;
+    top: 12px;
+    right: 24px;
+}
+
+.head .user .photo {
+    position: relative;
+}
+
+.head .user .photo::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    background-color: #ff626b;
+
+    border-radius: 9px;
+}
+
+/* head 끝*/
+
+/* /slider */
+
+/* .slider {
+    padding: 30px;
+    display: flex;
+} */
+
+.slider {
+    margin: 30px;
+}
+
+.slider .main_box {
+    position: relative;
+    width: 255px;
+    height: 196px;
+    background-image: url(../images/huji_00.jpg);
+    border-radius: 15px;
+}
+
+.slider .main_box .slider_detail {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(130, 127, 160, 0.6);
+    width: 255px;
+    height: 65px;
+    border-radius: 15px;
+}
+
+.slider .slider_detail:hover,
+.detail_box:hover {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    transition: all 0.3s;
+}
+
+.slider .main_box .slider_detail h2 {
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 196px 40px 13px;
+    font-weight: lighter;
+}
+
+.slider .main_box p {
+    position: absolute;
+    bottom: 27px;
+    left: 86px;
+    color: #fff;
+    font-size: 8px;
+    font-weight: lighter;
+}
+
+.slider .main_box .heart {
+    position: absolute;
+    top: 137px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    line-height: 18px;
+}
+
+.slider .main_box .star {
+    position: absolute;
+    bottom: 24px;
+    left: 13px;
+    padding-right: 5px;
+}
+
+.text_box p {
+    color: #fff;
+    font-size: 8px;
+}
+
+/* //slider끝 */
+/* 서브프로덕트
+width 157px height 164px 간격20px */
+
+.product_01 .name {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.product_01 .name h4 {
+    color: #000;
+}
+
+.product_01 .name p {
+    font-size: 10px;
+    transition: all 0.5;
+}
+
+.product_01 .name p:hover {
+    transition: all 0.3s;
+    color: #ff626b;
+    text-decoration: underline;
+}
+
+.product_01 .small_box {
+    display: flex;
+    gap: 19px;
+    padding: 0 21px 28px 21px;
+}
+
+.product_01 .small_box li {
+    position: relative;
+    width: 157px;
+    height: 164px;
+    border-radius: 10px;
+}
+
+.product_01 .small_box .montena {
+    background-image: url(../images/montena.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.product_01 .small_box .south {
+    background-image: url(../images/south_moutain.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product_01 .small_box .detail_box {
+    border-radius: 10px;
+    display: flex;
+    width: 157px;
+    height: 54px;
+    background-color: rgba(130, 127, 160, 0.8);
+    color: #fff;
+    margin-top: 110px;
+}
+
+.product_01 .small_box .detail_box p {
+    font-size: 5px;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.product_01 .small_box .detail_box .score {
+    font-size: 8px;
+    position: absolute;
+    bottom: 18px;
+    left: 70px;
+}
+
+.product_01 .small_box .heart {
+    position: absolute;
+    top: 102px;
+    right: 14px;
+}
+
+.product_01 .small_box .star {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+/* //.product_01끝! */
+
+/* .product_02 */
+
+/* 버튼 284*69xp
+보더38 */
+
+.footer {
+    width: 284px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    border-radius: 38px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.icon {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    line-height: 70px;
+}
+
+.icon i {
+    position: relative;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.icon i::after {
+    position: absolute;
+    content: "";
+    bottom: -11%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 5px;
+}
+
+.icon i:hover::after {
+    width: 22px;
+    border-radius: 22px;
+    box-shadow: 0 0 3px #6a62b7;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: 250ms ease-in-out;
+    background-color: #6a62b7;
+}
+
+.icon i:hover {
+    color: #6a62b7;
+    transition: all 0.3s;
+}

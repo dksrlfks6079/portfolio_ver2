@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.white_btn {
+    display: flex;
+    gap: 5px;
+}
+
+.top_box a {
+    width: 122px;
+    height: 45px;
+    background-color: #fede22;
+    border-radius: 24px;
+    padding: 13px 20px;
+}
+
+.container .white_btn a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 174px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+.container .white_btn img {
+    padding-right: 12px;
+}
+
+.container .content .btn {
+    width: 257px;
+    height: 56px;
+    font-size: 17px;
+    background-color: #f6f6f6;
+    text-align: center;
+    line-height: 56px;
+}
+
+.container .content .btn img {
+    margin-left: 7px;
+    margin-bottom: 2px;
+}
+/* 버튼의 arrow margin말고 정렬하기  */
+
+/* //btn */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    --background: #fafafa;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #fff;
+}
+.container .under_line {
+    width: 100%;
+    height: 33px;
+    background-color: #f6f6f6;
+}
+
+/* top~slider 시작 */
+
+.center_box {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    margin: 0 auto;
+    align-items: center;
+    width: 1200px;
+    padding: 0 58px;
+    display: flex;
+}
+
+.top .logo {
+    margin-right: auto;
+}
+
+.top ul {
+    display: flex;
+}
+.top ul li {
+    position: relative;
+}
+
+.top ul li {
+    height: 82px;
+    line-height: 82px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.top ul li::after {
+    position: absolute;
+    content: "";
+    background-color: #111;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.top ul li:hover::after {
+    width: 100%;
+}
+
+.top .top_menu {
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+}
+
+.top .top_menu .btn {
+    background-color: #ffef6b;
+    padding: 12px 20px;
+    border: 1px solid #ffef6b;
+
+    border-radius: 24px;
+    text-align: center;
+}
+
+.top .top_menu i {
+    padding-left: 20px;
+    font-size: 30px;
+    line-height: 82px;
+}
+
+.top .top_menu a:first-child:hover {
+    color: #555;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    transition: all 0.3s;
+}
+
+.top.sub .nav {
+    color: #fff;
+}
+
+.top.sub ul li::after {
+    background-color: #fff;
+}
+
+.top .submit_btn {
+    color: #111;
+}
+
+.container .slider {
+    margin: 0 auto;
+    height: 716px;
+    background-color: #ffef6b;
+}
+
+.container .slide_01 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 877px;
+    background-image: url(../images/main.png);
+}
+
+.container .main {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container .text_box {
+    position: absolute;
+    top: 123px;
+    left: 70px;
+}
+
+.container .text_box h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.container .text_box p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* top~slider 끝 */
+
+.content {
+    width: 1200px;
+    height: 750px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content h2 {
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.container .content p {
+    margin-bottom: 30px;
+    color: #777;
+}
+
+/* product_01 */
+
+.product_01 {
+    margin-top: 183px;
+}
+
+.product_01 .product_text {
+    padding-bottom: 271px;
+    padding-left: 100px;
+}
+
+/* product_02 start */
+
+.product_02 .product_text {
+    padding: 205px 100px 251px 0;
+}
+
+/* product_03 start */
+
+.product_03 .product_text {
+    padding: 205px 0 271px 100px;
+}
+
+/* product_04 */
+
+.product_04 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 930px;
+    margin: 0 auto;
+    background-color: #559cde;
+    border-bottom: 30px solid #333b58;
+}
+
+.product_04 .banner_text {
+    padding-top: 150px;
+    color: #fff;
+}
+
+.product_04 .banner_text h2 {
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.product_04 .banner_text p {
+    margin-bottom: 20px;
+    color: #efefef;
+    font-size: 15px;
+}
+
+.product_04 .banner_btns {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.product_04 .blue_btns {
+    width: 165px;
+    height: 53px;
+    margin-right: 5px;
+    line-height: 53px;
+    background-color: #64a5e1;
+    border-radius: 10px;
+}
+
+.product_04 .blue_btns img {
+    margin-left: 5px;
+}
+
+.product_04 img {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* product_04 end */
+/* product_05 start */
+
+.product_05 {
+    position: relative;
+    width: 1200px;
+    height: 1062px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.product_05 .product_text {
+    margin-top: 122px;
+    margin-bottom: 100px;
+}
+
+.product_05 .btn {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.product_05 .check_card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.check_card .peach,
+.lion {
+    padding: 60px;
+}
+
+.check_card .muji {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product_05 .card_select {
+    position: absolute;
+    width: 1200px;
+    height: 78px;
+    top: 55%;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* product_end */
+/* bottom */
+
+.bottom {
+    width: 100%;
+    height: 200px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 200px;
+}

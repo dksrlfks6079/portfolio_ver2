@@ -1,0 +1,146 @@
+.inner {
+    position: relative;
+    background-color: #d0cbff !important;
+    background-image: url(../images/huji_bg.jpg);
+    background-repeat: no-repeat;
+}
+.inner.montena {
+    position: relative;
+    background-color: #d0cbff !important;
+    background-image: url(../images/motena_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.inner.south {
+    position: relative;
+    background-color: #d0cbff !important;
+    background-image: url(../images/south_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu i {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.white_box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 18px 18px 0 0;
+}
+
+/* ping,title  */
+
+.container .ping {
+    display: flex;
+    align-items: center;
+    padding: 6px 0 9px;
+}
+.container .star {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.container ul {
+    display: flex;
+}
+
+/* day_select */
+
+.day_detail {
+    padding: 24px 0 21px;
+    display: flex;
+}
+
+.day_select {
+    display: flex;
+    justify-content: space-between;
+    width: 76px;
+    height: 28px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+.day_select p {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 28px;
+}
+
+.day_select .days {
+    justify-content: space-between;
+    width: 22px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #897cff;
+}
+
+.container .clock {
+    margin-left: 17px;
+    align-items: center;
+    gap: 9px;
+}
+
+.container .clock > i {
+    font-size: 18px;
+}
+
+.container .clock p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* detail */
+
+.container .detail h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.container .detail p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.9;
+    margin-bottom: 42px;
+}
+
+/* price */
+
+.container .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #6a62b7;
+    font-weight: bolder;
+}
+
+.container .price h5 {
+    font-size: 12px;
+}
+
+.container .price a {
+    width: 125px;
+    height: 40px;
+    background-color: #6a62b7;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    border: transparent;
+}
+
+.container .price a:hover {
+    transition: all 0.5s;
+    background-color: #fff;
+    border: 1px solid #6a62b7;
+    color: #6a62b7;
+}

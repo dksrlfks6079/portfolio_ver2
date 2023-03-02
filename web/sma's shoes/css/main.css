@@ -1,0 +1,295 @@
+/* widht:1320px
+양쪽 패딩:20px
+실제 컨텐츠 넓이:1280px */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    width: 256px;
+    height: 64px;
+    border: 1px solid #111;
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+    line-height: 64px;
+    font-size: 18px;
+}
+
+.btn_dark {
+    background-color: #111;
+    color: #fff;
+}
+
+.btn_full {
+    width: 100%;
+}
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #111;
+}
+
+.container {
+}
+
+.inner {
+    width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header .inner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.header li a {
+    height: 120px;
+    display: inline-block;
+    line-height: 120px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li a {
+    margin-right: 30px;
+}
+.top_menu {
+    display: flex;
+}
+
+.top_menu li a {
+    margin-left: 40px;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* hero */
+
+.slide {
+    position: relative;
+    width: 1280px;
+    height: 728px;
+    margin: 0 auto;
+    background-image: url(../images/main_visual.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.slide .text_box {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+
+.slide .text_box h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    color: #000;
+    letter-spacing: -1.6px;
+    line-height: 1;
+}
+
+.slide .text_box p {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+/* banner */
+
+.banner ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner ul li {
+    position: relative;
+    width: 632px;
+    height: 642px;
+    background-color: #111;
+    color: #fff;
+}
+
+.banner ul li h2 {
+    position: absolute;
+    top: 50px;
+    left: 48px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.banner ul li a {
+    position: absolute;
+    bottom: 36px;
+    left: 48px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* product */
+
+.product {
+    margin-top: 130px;
+}
+
+.product h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 26px;
+}
+
+.product ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.product ul::after {
+    content: "";
+    position: absolute;
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 7px;
+    bottom: 0;
+}
+
+.product ul li {
+    width: 305px;
+    padding-bottom: 63px;
+    position: relative;
+}
+
+.product ul li::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 7px;
+    background-color: #111;
+    bottom: 0;
+    z-index: 1;
+    transition: width 0.3s;
+}
+
+.product ul li:hover::after {
+    width: 100%;
+}
+
+.product .detail {
+    padding-top: 10px;
+    padding-left: 12px;
+}
+
+.product ul li .detail p.name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.product ul li .detail p.price {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* mailing */
+
+.mailing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mailing .text_box {
+    padding: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mailing .text_box h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.mailing .text_box p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding-top: 106px;
+    padding-bottom: 50px;
+}
+
+.footer .inner .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .inner .footer_menu {
+    display: flex;
+}
+
+.footer .inner .footer_menu li {
+    width: 216px;
+}
+
+.footer .inner .footer_menu > li > a,
+.footer .inner .footer_sns p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.25);
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer .inner .footer_menu ul a {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.footer .inner .footer_sns ul {
+    display: flex;
+}
+
+.footer .inner .footer_sns ul li {
+    margin-right: 16px;
+}
+.footer .inner .copyright {
+    margin-top: 110px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.25);
+}

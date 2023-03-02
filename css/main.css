@@ -1,0 +1,77 @@
+.thumbnail {
+    display: flex;
+    margin-top: 200px;
+}
+
+.container .thumbnail .thumb_text {
+    width: 450px;
+    padding-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.container .thumbnail .thumb_text h2 {
+    font-size: 30px;
+    margin-bottom: 79px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons .blog {
+    width: 30px;
+    height: 30px;
+}
+
+.thumb_img {
+    background-image: url(/images/profile.jpg);
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .container {
+        position: relative;
+        width: 300px;
+    }
+
+    .container .thumbnail {
+        display: flex;
+        margin-top: 150px;
+    }
+    .container .thumbnail .thumb_text {
+        margin: initial;
+        padding: initial;
+        padding-top: 200px;
+    }
+
+    .container .thumbnail .thumb_text h2 {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.8;
+        width: 250px;
+    }
+    .thumb_img {
+        position: absolute;
+        background-image: url(/images/profile.jpg);
+        width: 150px;
+        height: 180px;
+        top: 0;
+        left: 0;
+    }
+    .icons {
+        width: 170px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin: 0 auto;
+    }
+}

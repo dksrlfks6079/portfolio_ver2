@@ -1,0 +1,174 @@
+.product li {
+    position: relative;
+}
+
+ul li h5 {
+    position: absolute;
+    color: #fff;
+    top: 110%;
+    left: 50%;
+    font-size: 30px;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+    transition: top 0.5s;
+    overflow: hidden;
+}
+
+ul li:hover h5 {
+    top: 50%;
+}
+
+li:hover img {
+    filter: brightness(50%);
+    transition: all 0.3s;
+}
+
+.product_01 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 200px;
+}
+
+.product_01 li img {
+    width: 100%;
+    display: block;
+}
+.product_02 {
+    display: grid;
+    grid-template-columns: 50ch auto;
+    gap: 30px;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+
+.product_02 li img {
+    display: block;
+    margin: 0 auto;
+}
+.product_03 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 500px;
+}
+
+.product_03 li img {
+    display: block;
+}
+
+.dimm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.dimm.show {
+    visibility: visible;
+}
+
+/* reponsive */
+
+@media (max-width: 768px) {
+    .product li {
+        position: relative;
+    }
+
+    ul li h5 {
+        position: absolute;
+        color: #fff;
+        top: 110%;
+        left: 50%;
+        font-size: 30px;
+        font-weight: 400;
+        transform: translate(-50%, -50%);
+        transition: top 0.5s;
+        overflow: hidden;
+    }
+
+    ul li:hover h5 {
+        top: 50%;
+    }
+
+    li:hover img {
+        filter: brightness(50%);
+        transition: all 0.3s;
+    }
+
+    .product {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .product_01 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 200px;
+        padding: 10px;
+    }
+
+    .product_01 li img {
+        width: 100%;
+        display: block;
+    }
+    .product_02 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-bottom: 10px;
+        padding: 0 10px;
+        justify-content: center;
+    }
+
+    .product_02 li img {
+        display: block;
+        margin: 0 auto;
+    }
+    .product_03 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        margin-bottom: 500px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .dimm {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+    }
+
+    .dimm.show {
+        visibility: visible;
+    }
+
+    .product_01 img {
+        width: 160px;
+        height: auto;
+    }
+    .product_02 img {
+        width: 300px;
+        height: auto;
+    }
+    .product_03 img {
+        width: 300px;
+        height: auto;
+    }
+    /* 슬라이드로 바꾸기 */
+}
