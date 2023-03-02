@@ -82,15 +82,7 @@ li:hover img {
     }
 
     ul li h5 {
-        position: absolute;
-        color: #fff;
-        top: 110%;
-        left: 50%;
-        font-size: 30px;
-        font-weight: 400;
-        transform: translate(-50%, -50%);
-        transition: top 0.5s;
-        overflow: hidden;
+        display: none;
     }
 
     ul li:hover h5 {
@@ -140,24 +132,9 @@ li:hover img {
         margin: 0 auto;
         padding: 10px;
     }
-
     .dimm {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.75);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        visibility: hidden;
+        display: none;
     }
-
-    .dimm.show {
-        visibility: visible;
-    }
-
     .product_01 img {
         width: 160px;
         height: auto;
