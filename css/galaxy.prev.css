@@ -10,7 +10,6 @@
 
 .galaxy_text ul {
     display: flex;
-    justify-content: space-between;
 }
 
 .galaxy_text ul li {
@@ -18,17 +17,12 @@
 }
 
 .galaxy_text ul .text_01 {
+    width: 220px;
     font-size: 25px;
     color: #5c5c5c;
-    margin-right: 123px;
-}
-
-.galaxy_text ul li:nth-child(1) {
-    width: 100px;
 }
 
 .galaxy_text ul li:nth-child(2) {
-    width: 700px;
     font-size: 20px;
 }
 
@@ -40,4 +34,8 @@
     margin: 0 auto;
     text-align: center;
     padding: 200px 0;
+}
+
+.galaxy_text ul li:nth-child(2) {
+    margin-right: auto;
 }

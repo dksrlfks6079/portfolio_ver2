@@ -1,8 +1,9 @@
 $(function () {
     $(".shoes_img").slick({
         autoplay: true,
-        nextArrow: $(".next"),
-        prevArrow: $(".prev"),
+        dots: true,
+        arrows: false,
+        infinite: true,
     })
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {

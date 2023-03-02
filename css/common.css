@@ -121,6 +121,14 @@ body {
     border: 1px solid transparent;
 }
 
+.pub_btn .btn_02 {
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 60px;
+}
+
 /* reponsive */
 
 @media (max-width: 768px) {
@@ -157,7 +165,7 @@ body {
     .btn {
         font-size: 16px;
         color: var(--primary);
-        width: 110px;
+        width: 120px;
         height: 50px;
         line-height: 50px;
         text-align: center;

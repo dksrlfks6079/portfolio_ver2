@@ -119,6 +119,10 @@
         margin-bottom: 30px;
     }
 
-    .btns {
+    .btns .btn {
+        width: 110px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
     }
 }

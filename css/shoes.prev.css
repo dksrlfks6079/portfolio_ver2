@@ -24,3 +24,25 @@
 .shoes_img.kakao_img {
     border-radius: 50px;
 }
+
+.shoes_img .slick-dots {
+    top: -50px;
+    width: initial;
+    right: 0;
+}
+
+.shoes_img .slick-dots li button {
+    width: 14px;
+    height: 14px;
+    background-color: #000;
+    border-radius: 14px;
+    opacity: 0.2;
+}
+
+.shoes_img .slick-dots li button::before {
+    content: "";
+}
+
+.shoes_img .slick-dots li.slick-active button {
+    opacity: 0.7;
+}
