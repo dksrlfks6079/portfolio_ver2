@@ -131,8 +131,13 @@ body {
     position: relative;
     width: 632px;
     height: 642px;
-    background-color: #111;
+    background-color: red;
+    background-image: url(../images/men_sneakers.png);
     color: #fff;
+}
+
+.banner ul li:first-child {
+    background-image: url(../images/women_sneakers.png);
 }
 
 .banner ul li h2 {

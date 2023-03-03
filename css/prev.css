@@ -117,8 +117,14 @@
 
     .container .prev_img {
         margin: 0 auto;
+
         text-align: center;
         padding: 200px 0;
+    }
+
+    .container .prev_img img {
+        width: 100%;
+        padding: 0 10px;
     }
 
     .galaxy_text ul li:nth-child(2) {

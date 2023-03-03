@@ -120,8 +120,13 @@
 
 .product_about ul.photos li {
     background-color: #e1e1e1;
+    background-image: url(../images/sub_main.png);
     width: 414px;
     height: 556px;
+}
+
+.product_about ul.photos li:last-child {
+    background-image: url(../images/sub_main2.png);
 }
 
 .product_about .text_box {

@@ -127,6 +127,7 @@
 
 .skill_per li:nth-child(1) span {
     width: 50%;
+    animation: stack1 2s 1;
 }
 
 .skill_per li span {
@@ -143,6 +144,7 @@
 }
 .skill_per li:nth-child(2) span {
     width: 70%;
+    animation: stack2 2s 1;
 }
 
 .skill_per li:nth-child(2) span::before {
@@ -154,6 +156,7 @@
 }
 .skill_per li:nth-child(3) span {
     width: 60%;
+    animation: stack3 2s 1;
 }
 
 .skill_per li:nth-child(3) span::before {
@@ -165,6 +168,7 @@
 }
 .skill_per li:nth-child(4) span {
     width: 50%;
+    animation: stack4 2s 1;
 }
 
 .skill_per li:nth-child(4) span::before {
@@ -233,6 +237,38 @@
     opacity: 0.6;
 }
 
+@keyframes stack1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes stack2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes stack3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@keyframes stack4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
 /* responsive */
 
 /* 
@@ -268,7 +304,6 @@
         transform: translateX(-50%);
         width: 200px;
         height: 200px;
-        background-color: black;
         border-radius: 150px;
     }
 

@@ -20,7 +20,11 @@
     padding-left: 108px;
 }
 
-.pub_product.product_04 img {
+.pub_product.product_02 img {
+    border-radius: 30px;
+    border: 1px solid #ddd;
+}
+.pub_product.product_03 img {
     border-radius: 30px;
     border: 1px solid #ddd;
 }
