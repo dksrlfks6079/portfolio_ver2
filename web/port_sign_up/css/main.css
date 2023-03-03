@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --accent: #ff5454;
+    --primary: #19333d;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .input_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1320px;
+    height: 947px;
+    display: flex;
+    transform: translate(-50%, -50%);
+    background-color: rebeccapurple;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
+}
+
+.container .input_container .left {
+    width: 765px;
+    height: 947px;
+    background-color: #fff;
+    padding: 92px 126px;
+}
+
+/* input */
+
+.left .input_top h2 {
+    font-size: 49px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.left .input_top .sns {
+    padding: 41px 0 53px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
+}
+
+.left .input_top .sns li {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 48px;
+    border: 1px solid var(--primary);
+    font-size: 25px;
+}
+
+.left .input_top p {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 20px;
+}
+
+.left .input_box .inputs {
+    flex-direction: column;
+    display: flex;
+    gap: 22px;
+    color: #c7dbe0;
+    margin-bottom: 65px;
+}
+
+.left .input_box .inputs > input {
+    width: 527px;
+    height: 70px;
+    padding: 20px;
+    border-radius: 11px;
+    font-size: 20px;
+    border: 1px solid #c7dbe0;
+    background-color: rgba(217, 217, 217, 0.2);
+}
+
+.left .input_box .inputs input:focus {
+    border: 3px solid var(--accent);
+    opacity: 0.6;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+}
+
+.input_text {
+    display: flex;
+}
+
+.input_text input {
+    width: 34px;
+    height: 34px;
+    margin-right: 17px;
+    background-color: var(--accent);
+}
+
+.input_text span {
+    font-size: 20px;
+}
+
+/* button */
+
+.btns {
+    display: flex;
+    gap: 24px;
+}
+
+.btns button {
+    width: 253px;
+    height: 73px;
+    border-radius: 12px;
+    font-size: 20px;
+    margin: 48px 0 120px;
+}
+
+.btns button:hover {
+    text-decoration: underline;
+}
+
+.btns .btn {
+    border: transparent;
+    background: var(--accent);
+    color: #fff;
+}
+.btns .btn_line {
+    background-color: #fff !important;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+}
+
+/* right */
+
+.right {
+    width: 555px;
+    height: 947px;
+    background-image: url(../images/Rectangle\ 27.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
