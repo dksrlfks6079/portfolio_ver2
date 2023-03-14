@@ -1,0 +1,267 @@
+.inner {
+    width: 100%;
+}
+
+.inner .top_box {
+    height: 285px;
+    width: 375px;
+    background-color: var(--darkgreen);
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.inner .top_box i {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 30px;
+    color: var(--accent);
+    opacity: 0.8;
+}
+
+.inner .top_box .title_02 {
+    color: var(--accent);
+    padding-top: 50px;
+    margin-bottom: 19px;
+    margin: 0 auto;
+}
+
+.top_box .title_02 h1 {
+    font-family: "yg-jalnan";
+    font-size: 30px;
+    text-align: center;
+}
+
+.top_box .title_02 p {
+    font-weight: lighter;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+}
+
+.top_box .search input {
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.top_box .search input:focus {
+    outline: none;
+    background-color: #fff;
+    opacity: inherit;
+}
+
+/* 제품목록 */
+
+.menu .menu_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0;
+}
+
+.menu .eco_product {
+    display: flex;
+    margin: 20px 15px;
+
+    justify-content: space-between;
+}
+
+.menu .eco_product .photo:hover {
+    opacity: 0.7;
+}
+
+.menu .photo_01 {
+    width: 140px;
+    height: 160px;
+    border-radius: 20px;
+    background-image: url(../images/brush.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.menu .photo_02 {
+    width: 140px;
+    height: 160px;
+    border-radius: 20px;
+    background-image: url(../images/eco_bag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu .photo_03 {
+    width: 140px;
+    height: 160px;
+    border-radius: 20px;
+    background-image: url(../images/eco_cream.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.menu .photo_04 {
+    width: 140px;
+    height: 160px;
+    border-radius: 20px;
+    background-image: url(../images/eco_cup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slick-slide {
+    margin: 0 5px;
+}
+
+.container_02 {
+    padding: 0 20px;
+}
+
+.container_02 .tips {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tips h2 {
+    padding: 10px 0;
+}
+
+.container_02 .plan {
+    position: relative;
+    width: 330px;
+    height: 196px;
+    background-image: url(../images/banner_03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+.container_02 .plan h1 {
+    font-size: 14px;
+    text-align: left;
+    font-family: "yg-jalnan";
+    padding: 25px;
+    color: #75460f;
+}
+
+/* 이달의 리뷰 */
+
+.monthly {
+    margin-bottom: 100px;
+}
+
+.monthly h1 {
+    font-size: 25px;
+    color: var(--darkgreen);
+}
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.review .name {
+    display: flex;
+    font-size: 12px;
+    color: #999;
+}
+
+.review .star {
+    display: flex;
+    padding: initial;
+}
+
+.review .review_contents {
+    font-size: 11px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review .review_contents p {
+    width: 214px;
+}
+
+.review .contents_photo {
+    width: 104px;
+    height: 104px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contents_photo01 {
+    width: 104px;
+    height: 104px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/eco_set.jpg);
+    background-color: red;
+}
+.contents_photo02 {
+    width: 104px;
+    height: 104px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/brush.jpg);
+}
+.contents_photo03 {
+    width: 104px;
+    height: 104px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/straw.jpg);
+}
+
+/* 푸터 */
+
+.container_02 .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 375px;
+    height: 80px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.container_02 .footer li {
+    margin: 0 auto;
+}
+
+.footer .home {
+    width: 50px;
+    height: 50px;
+    background-color: var(--olive);
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.footer .home:hover {
+    background-color: #bad39e;
+    transition: all 0.3s;
+}
+
+.footer .home > p {
+    margin: 0 auto;
+}
+.footer .home > img {
+    margin: 0 auto;
+}

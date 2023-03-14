@@ -1,0 +1,104 @@
+.top_box2 {
+    position: relative;
+}
+
+.top_box2 .top_btn {
+    width: 100%;
+    padding: 30px 30px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.top_box2 .top_btn .gray {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d2d2d2;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.top_box2 .top_btn i {
+    font-size: 25px;
+    line-height: 50px;
+    color: #111;
+}
+
+.top_box2 .top_btn .gray:hover {
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+.top_box2 .top_btn i:hover {
+    color: #999;
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 0 0 30px 30px;
+    overflow: hidden;
+}
+
+.inner .detail_bg .brush_02 {
+    width: 375px;
+    height: 433px;
+    border-radius: 0 0 30px 30px;
+}
+.inner .detail_bg .brush_03 {
+    width: 375px;
+    height: 433px;
+    border-radius: 0 0 30px 30px;
+}
+
+.detail_text {
+    padding: 10px 30px 50px;
+    text-align: left;
+    color: var(--darkgreen);
+}
+
+.detail_text p {
+    color: #999;
+    margin-top: 9px;
+    font-size: 15px;
+}
+
+.detail_text h2 {
+    margin-top: 50px;
+}
+
+.btn {
+    display: flex;
+    padding: 0 30px;
+}
+
+.comment:first-child {
+    background-color: rgb(240, 234, 149);
+    color: #fff;
+    border: none;
+}
+
+.comment {
+    justify-content: center;
+    text-align: center;
+    line-height: 60px;
+    width: 150px;
+    height: 60px;
+    margin: 30px auto;
+    background-color: var(--darkgreen);
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "yg-jalnan";
+    color: var(--accent);
+    border: 1px solid var(--darkgreen);
+}
+
+.comment:hover {
+    background-color: #fff;
+    border: 1px solid var(--darkgreen);
+    color: var(--darkgreen);
+    transition: all 0.3s;
+}

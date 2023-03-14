@@ -11,10 +11,32 @@
     text-align: right;
 }
 
+.career_pdf {
+    width: 160px;
+    height: 60px;
+    background-color: #f8abab;
+    margin-left: auto;
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 60px;
+    border: 5px solid #f8abab;
+}
+
+.career_pdf:hover {
+    background-color: #fff;
+    border: 5px solid #ffc4c4;
+    transition: all 0.3s;
+}
+
 .product.product_01 .photo_01 {
     width: 400px;
     height: 500px;
-    background-color: black;
+    background-image: url(../images/profile_02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 32px;
 }
 
@@ -127,7 +149,8 @@
 
 .skill_per li:nth-child(1) span {
     width: 50%;
-    animation: stack1 2s 1;
+    animation: stack1 4s 1;
+    background-color: rgb(240, 116, 116);
 }
 
 .skill_per li span {
@@ -144,7 +167,8 @@
 }
 .skill_per li:nth-child(2) span {
     width: 70%;
-    animation: stack2 2s 1;
+    animation: stack2 4s 1;
+    background-color: skyblue;
 }
 
 .skill_per li:nth-child(2) span::before {
@@ -156,7 +180,8 @@
 }
 .skill_per li:nth-child(3) span {
     width: 60%;
-    animation: stack3 2s 1;
+    animation: stack3 4s 1;
+    background-color: rgba(255, 166, 0, 0.596);
 }
 
 .skill_per li:nth-child(3) span::before {
@@ -168,7 +193,8 @@
 }
 .skill_per li:nth-child(4) span {
     width: 50%;
-    animation: stack4 2s 1;
+    animation: stack4 4s 1;
+    background-color: rgba(17, 126, 17, 0.445);
 }
 
 .skill_per li:nth-child(4) span::before {
@@ -239,12 +265,13 @@
 
 @keyframes stack1 {
     0% {
-        width: 0;
+        width: 0%;
     }
     100% {
         width: 50%;
     }
 }
+
 @keyframes stack2 {
     0% {
         width: 0;
@@ -292,11 +319,23 @@
 
     .product.product_01 .intro p {
         padding-top: 180px;
+        padding-bottom: 20px;
         font-size: 15px;
         text-align: center;
         display: flex;
     }
 
+    .career_pdf {
+        width: 140px;
+        height: 40px;
+        background-color: #f8abab;
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 60px;
+        border: 1px solid #f8abab;
+    }
     .product.product_01 .photo_01 {
         position: absolute;
         top: -3%;

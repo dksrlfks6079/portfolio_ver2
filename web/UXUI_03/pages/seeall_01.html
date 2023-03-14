@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+        />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="../common.js"></script>
+        <title>UX/UI</title>
+
+        <link rel="stylesheet" href="../css/common.css" />
+        <link rel="stylesheet" href="../css/seeall.css" />
+        <link rel="stylesheet" href="../css/first.css" />
+    </head>
+    <body>
+        <div class="product">
+            <div class="top_btn">
+                <a href="../pages/first.html"
+                    ><div class="gray">
+                        <i class="xi-angle-left">뒤로</i>
+                    </div></a
+                >
+            </div>
+            <div class="inner">
+                <ul class="nav">
+                    <li>텀블러</li>
+                    <li>에코백</li>
+                    <li>생필품</li>
+                    <li>인테리어</li>
+                </ul>
+                <div class="best_menu">
+                    <h1>금주의 베스트</h1>
+                    <div class="best_photo">
+                        <a href="../detail.page/susaeme.html"
+                            ><p class="best_photo01"></p
+                        ></a>
+                        <a href="../detail.page/eco_set.html"
+                            ><p class="best_photo02"></p
+                        ></a>
+                        <a href="../detail.page/straw.html"
+                            ><p class="best_photo03"></p
+                        ></a>
+                        <a href="../detail.page/detail.html"
+                            ><p class="best_photo06"></p
+                        ></a>
+                        <a href="../detail.page/detail.html"
+                            ><p class="best_photo04"></p
+                        ></a>
+                        <a href="../detail.page/detail.html"
+                            ><p class="best_photo05"></p
+                        ></a>
+                        <a href="../detail.page/detail.html"
+                            ><p class="best_photo07"></p
+                        ></a>
+                        <a href="../detail.page/detail.html"
+                            ><p class="best_photo08"></p
+                        ></a>
+                    </div>
+                </div>
+
+                <div class="container_02">
+                    <ul class="footer">
+                        <li class="home">
+                            <a href="/pages/first.html">
+                                <img src="../images/home.png" alt=""
+                            /></a>
+                        </li>
+                        <li><img src="../images/bookmark.png" alt="" /></li>
+                        <li><img src="../images/bell.png" alt="" /></li>
+                        <li><img src="../images/settig.png" alt="" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script
+            type="text/javascript"
+            src="//c@dn.jsdelivr.net/npm/slick-carousel1.8.1/slick/slick.min.js"
+        ></script>
+        <script>
+            $(document).ready(function () {
+                $(".eco_product").slick({
+                    slide: "div",
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                })
+            })
+        </script>
+    </body>
+</html>

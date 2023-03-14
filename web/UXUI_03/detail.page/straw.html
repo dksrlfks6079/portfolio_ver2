@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+        />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="../common.js"></script>
+        <title>UX/UI</title>
+
+        <link rel="stylesheet" href="../css/common.css" />
+        <link rel="stylesheet" href="../css/detail.css" />
+    </head>
+    <body>
+        <div class="product">
+            <div class="inner">
+                <div class="top_box2">
+                    <div class="top_btn">
+                        <a href="../pages/seeall_01.html"
+                            ><div class="gray">
+                                <i class="xi-angle-left"></i></div
+                        ></a>
+                        <div class="gray"><i class="xi-share-alt"></i></div>
+                    </div>
+                    <div class="detail_bg">
+                        <div class="brush brush_01">
+                            <img src="../images/straw.jpg" alt="" />
+                        </div>
+                        <div class="brush brush_02">
+                            <img src="../images/straw_02.jpg" alt="" />
+                        </div>
+                        <div class="brush brush_03">
+                            <img src="../images/straw_03.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="detail_text">
+                    <h1>환경 친화적</h1>
+                    <p>
+                        구하지 실로 군영과 곳이 유소년에게서 피부가 하는 품었기
+                        풀밭에 봄바람이다.
+                    </p>
+                    <h2>유용한 팁</h2>
+                    <p>
+                        구하지 실로 군영과 곳이 유소년에게서 피부가 하는 품었기
+                        풀밭에 봄바람이다. 앞이 인생에 인간에 것은 있는
+                        철환하였는가? 없는 되는 힘차게 사막이다.
+                    </p>
+                </div>
+
+                <div class="btn">
+                    <div class="comment">
+                        <a href="#x">장바구니</a>
+                    </div>
+                    <div class="comment"><a href="#x">구매하기</a></div>
+                </div>
+            </div>
+        </div>
+        <script
+            type="text/javascript"
+            src="//c@dn.jsdelivr.net/npm/slick-carousel1.8.1/slick/slick.min.js"
+        ></script>
+        <script>
+            $(document).ready(function () {
+                $(".detail_bg").slick({
+                    infinite: true,
+                    speed: 500,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    fade: true,
+                    cssEase: "linear",
+                    arrows: false,
+                })
+            })
+        </script>
+    </body>
+</html>
