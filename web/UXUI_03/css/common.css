@@ -31,13 +31,14 @@ a {
 body {
     font-family: "yg-jalnan";
     font-family: "Noto Sans KR", sans-serif;
+    position: relative;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* 프로덕트는 메인이외에 모든 창에서 툴로 쓰입니다. */
+.product {
+    width: 375px;
     height: 100vh;
+    margin: 0 auto;
 }
 
 .container h1,

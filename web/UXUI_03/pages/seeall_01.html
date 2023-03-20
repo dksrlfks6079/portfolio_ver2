@@ -36,10 +36,14 @@
             </div>
             <div class="inner">
                 <ul class="nav">
+                    <li>인기상품</li>
                     <li>텀블러</li>
                     <li>에코백</li>
                     <li>생필품</li>
                     <li>인테리어</li>
+                    <li>세일</li>
+                    <li>공지사항</li>
+                    <li>고객문의</li>
                 </ul>
                 <div class="best_menu">
                     <h1>금주의 베스트</h1>
@@ -91,12 +95,11 @@
         ></script>
         <script>
             $(document).ready(function () {
-                $(".eco_product").slick({
-                    slide: "div",
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
+                $(".nav").slick({
+                    slide: "li",
+                    slidesToShow: 4.3,
+                    arrows: false,
+                    infinite: false,
                 })
             })
         </script>

@@ -1,32 +1,36 @@
-.bg_video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+/* 컨테이너는 메인에만 쓰입니다. */
+
+.container {
+    position: relative;
     width: 100%;
-    z-index: -1;
+    height: 100vh;
 }
+.bg_video {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .bg_video__content {
-    height: 100%;
-    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 375px;
 }
 /* 비디오 넣는 태그 */
 
 .inner {
-    width: 480px;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    padding: 100px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 160px;
-}
-
-.leaf {
+    padding: 60px 10px;
+    width: 370px;
+    height: 670px;
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
 }
 
 .title {
@@ -35,6 +39,7 @@
     text-align: center;
     width: 330px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .title p {
@@ -43,7 +48,7 @@
 }
 
 .button {
-    width: 368px;
+    width: 330px;
     height: 60px;
     background-color: var(--accent);
     border-radius: 15px;
@@ -81,7 +86,7 @@
 
     .title {
         font-size: 20px;
-        margin-top: 150px;
+        margin-top: 80px;
     }
 
     .button {
