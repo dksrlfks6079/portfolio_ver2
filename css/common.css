@@ -18,6 +18,7 @@ ul {
 .container {
     max-width: 1180px;
     margin: 0 auto;
+    height: 100vh;
 }
 
 body {
@@ -146,9 +147,16 @@ body {
         padding: 0 20px;
     }
 
+    .top .logo img {
+        width: 80px;
+        top: 10%;
+        left: 10%;
+        transform: translate(10%, 10%);
+    }
+
     .top {
         height: 90px;
-        width: 100%;
+        width: 400px;
         position: fixed;
         display: flex;
         background-color: #fff;

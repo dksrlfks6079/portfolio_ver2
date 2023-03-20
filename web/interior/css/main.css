@@ -1,6 +1,6 @@
 .inner {
     height: auto;
-    background-image: url(/images/main_banner.png);
+    background-image: url(../images/main_banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

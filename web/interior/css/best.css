@@ -43,11 +43,11 @@
 }
 
 .banner_01 {
-    background-image: url(/images/banner_01.jpg);
+    background-image: url(../images/banner_01.jpg);
 }
 .banner_02 {
-    background-image: url(/images/banner_02.jpg);
+    background-image: url(../images/banner_02.jpg);
 }
 .banner_03 {
-    background-image: url(/images/banner_03.jpg);
+    background-image: url(../images/banner_03.jpg);
 }

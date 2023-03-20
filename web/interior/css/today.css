@@ -67,19 +67,19 @@ h2 {
 }
 
 .photo_07 {
-    background-image: url(/images/bingruri.jpg);
+    background-image: url(../images/bingruri.jpg);
 }
 .photo_08 {
-    background-image: url(/images/color_stand.jpg);
+    background-image: url(../images/color_stand.jpg);
 }
 .photo_09 {
-    background-image: url(/images/wood.jpg);
+    background-image: url(../images/wood.jpg);
 }
 .photo_10 {
-    background-image: url(/images/chair.jpg);
+    background-image: url(../images/chair.jpg);
 }
 .photo_11 {
-    background-image: url(/images/whitebox.jpg);
+    background-image: url(../images/whitebox.jpg);
 }
 
 /* 타이머 */
