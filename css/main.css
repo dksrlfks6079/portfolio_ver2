@@ -39,7 +39,6 @@
     position: relative;
     z-index: 1;
     margin-top: 200vh;
-    height: 100vh;
     background-color: #fff;
 }
 
@@ -80,6 +79,12 @@
 
 .icons i {
     font-size: 30px;
+}
+
+.icons a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .thumb_img {
@@ -126,8 +131,7 @@
     }
     .icons {
         margin-top: 80px;
-
-        font: 8px;
+        display: inline-block;
     }
 
     .icons a p {
