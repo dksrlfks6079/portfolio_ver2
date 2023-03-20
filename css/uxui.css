@@ -1,5 +1,5 @@
 .container .uxui {
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -54,6 +54,7 @@
 
 .ux_01 .img img {
     width: 800px;
+    margin-bottom: 150px;
 }
 
 .ux_01 {
@@ -76,6 +77,7 @@
     align-items: center;
     justify-content: center;
     margin-left: auto;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -86,7 +88,7 @@
     .ux_01.first {
         display: block;
         height: 280px;
-        margin-top: 300px;
+        margin-bottom: 300px;
     }
 
     .ux_01 .trip_img {
@@ -113,8 +115,8 @@
 
     .ux_01 .img img {
         width: 300px;
-        margin-bottom: 30px;
         display: flex;
+        margin: 50px auto;
     }
 
     .ux_01 img {
@@ -128,8 +130,9 @@
 
     .ux_detail {
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        gap: 30px;
+        padding-bottom: 50px;
     }
 
     .ux_01 .ux_detail h2 {
