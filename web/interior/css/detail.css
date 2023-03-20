@@ -1,0 +1,135 @@
+.inner {
+    margin-top: 140px;
+}
+
+.back {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    color: #777;
+    margin-bottom: 15px;
+}
+.slick-dots li button:before {
+    font-size: 15px;
+    opacity: 0.1;
+}
+
+/* 상품 설명,가격,배송정보 */
+
+.detail {
+    padding: 24px;
+    overflow: hidden;
+}
+
+.detail_text {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.detail_text h2 {
+    margin-right: 30px;
+}
+
+.detail_text i {
+    font-size: 25px;
+}
+
+.text_box p:first-child {
+    font-size: 25px;
+}
+
+.text_box {
+    padding: initial !important;
+}
+
+.port {
+    font-size: 13px;
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.gray_point {
+    color: #777;
+}
+
+/* 버튼 */
+
+.bottom {
+    display: flex;
+    height: 62px;
+    line-height: 62px;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.bottom i {
+    font-size: 25px;
+    color: #777;
+}
+
+/* 옵션선택하는 슬라이드 메뉴  */
+.btn {
+    width: 286px;
+    height: 62px;
+    background-color: var(--point);
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.box {
+    padding: 10px;
+
+    width: 375px;
+    height: 250px;
+    background-color: #ffffffd8;
+    bottom: -250px;
+    right: 50%;
+    transform: translateX(50%);
+    position: fixed;
+    transition: all 0.3s;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 30px rgb(248, 239, 239);
+}
+
+.box.on {
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.box i {
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.input_box input {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #eee;
+    border: #eee;
+    border-radius: 5px;
+}
+
+.input_box li {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: rgb(211, 181, 141);
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.input_box {
+    text-align: center;
+}

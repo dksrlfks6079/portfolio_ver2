@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+        />
+        <title>인테리어 앱</title>
+        <link rel="stylesheet" href="/css/common.css" />
+        <link rel="stylesheet" href="/css/detail.css" />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="top">
+                <div class="user">
+                    <a href="/pages/home.html"
+                        ><img class="logo" src="/images/logo.png" alt=""
+                    /></a>
+                    <a href="/index.html"><i class="xi-user-o"></i></a>
+                    <i class="xi-cart-o"></i>
+                </div>
+                <ul class="nav">
+                    <a href="/pages/best.html"><li>베스트</li></a>
+                    <a href="/pages/start_today.html"><li>오늘 출발</li></a>
+                    <li>테이블 및 책상</li>
+                    <li>조명</li>
+                    <li>식탁 세트</li>
+                    <li>거실가구</li>
+                    <li>인테리어 소품</li>
+                </ul>
+            </div>
+            <div class="inner">
+                <ul class="back">
+                    <li><i class="xi-angle-left"></i></li>
+                    <li>
+                        <a href="/pages/best.html"><p>뒤로</p></a>
+                    </li>
+                </ul>
+                <div class="main_photo">
+                    <img src="/images/wood.jpg" alt="" />
+                    <img src="/images/wood_02.jpg" alt="" />
+                    <img src="/images/wood_03.jpg" alt="" />
+                </div>
+
+                <div class="detail">
+                    <div class="detail_text">
+                        <h2>원목수납벤치 아카시아</h2>
+
+                        <ul class="icon">
+                            <li>
+                                <i class="xi-heart-o"></i>
+                                <i class="xi-share-alt-o"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="star">
+                        <li>
+                            <img src="/images/Star.png" alt="" />
+                            <img src="/images/Star.png" alt="" />
+                            <img src="/images/Star.png" alt="" />
+                            <img src="/images/Star.png" alt="" />
+                            <img src="/images/Star.png" alt="" />
+                        </li>
+                    </ul>
+                    <div class="text_box">
+                        <p><strong>128,000</strong><font size="2">원</font></p>
+
+                        <p class="selling">판매 94</p>
+                        <p class="selling">리뷰 64</p>
+                    </div>
+                    <ul class="port">
+                        <li><p>혜택</p></li>
+                        <li>
+                            <p>83P 적립(웰컴회원 0.5% 추가 적립)</p>
+                            <p>3개월 무이자할부</p>
+                        </li>
+                    </ul>
+                    <ul class="port">
+                        <li><p>배송</p></li>
+                        <li>
+                            <p>무료배송</p>
+                            <p class="gray_point">
+                                제주도/도서산간 지역 배송 불가
+                            </p>
+                        </li>
+                    </ul>
+
+                    <ul class="bottom">
+                        <li class="like"><i class="xi-heart-o"></i></li>
+                        <li class="btn"><a href="#x">구매하기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="xi-angle-down"></i>
+
+            <div class="input_box">
+                <div>
+                    <input type="text" placeholder="상세옵션(기본4단)" />
+                </div>
+                <div><input type="text" placeholder="색상선택" /></div>
+
+                <ul>
+                    <li><a href="#x">장바구니</a></li>
+                    <li><a href="#x">구매하기</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="/js/common.js"></script>
+        <script
+            type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script>
+            $(document).ready(function () {
+                $(".main_photo").slick({
+                    dots: true,
+                    arrows: false,
+                    fade: true,
+                    infinite: true,
+                    autoplay: true,
+                    autoplaySpeed: 800,
+                })
+            })
+            $(".btn").click(function () {
+                $(".box").addClass("on")
+            })
+            $(".box i").click(function () {
+                $(".box").removeClass("on")
+            })
+        </script>
+    </body>
+</html>
