@@ -30,6 +30,12 @@ body {
     --second: #5c5c5c;
 }
 
+.logo {
+    width: 120px;
+
+    top: 0;
+}
+
 .top .inner {
     height: 110px;
     width: 1180px;
